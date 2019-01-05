@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Source-Design</title>
+	<meta charset="utf-8"> 
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<!--header section-->
+	<header id="header">
+		<div class="container">
+			<figure class="logo">
+				<figcation><a href="index.html">Logo</a></figcation>
+			</figure>
+		</div>
+	</header><!--header-section ends-->
+	
+
+	<!--main section-->
+	<main id="main">
+		<figure class="bitmap">
+			<figcation><img src="images/Bitmap.png" alt="image"></figcation>
+			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="follow-btn">Follow</button>
+
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 class="modal-title">Please Complete below details requested <br> by volunteer</h4>
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			      </div>
+			      <div class="modal-body">
+			        <p>General Information</p>
+			        <div class="information">
+			        	<div class="col-md-6" style="float: left;">Driving Licence</div>
+			        	<input type="textarea" placeholder="General Information" class="col-md-6">
+			        </div>
+
+			        <div class="information">
+			        	<div class="col-md-6" style="float: left;">Field Type</div>
+			        	<input type="textarea" placeholder="Ex:2" class="col-md-6">
+			        </div>
+			        
+			      </div>
+			      <div class="modal-footer">
+			      	<button class="save">Save</button>
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+			      </div>
+			    </div>
+
+			  </div>
+		</figure>
+
+		<!--container section-->
+		<div class="container">
+	
+			<div class="col-md-12">
+				<div class="col-md-3" style="float: left;">
+					<!--about-organisation stars-->
+					<div class="about-organisation">
+						<h3>About Organisation</h3>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+						<h2>Canine Therpahy</h2>
+						<p>We are a software <br> company and a community <br> of passionate, purpose-led <br>individuals.</p>
+						<a href="#"><i class="fa fa-plus" aria-hidden="true"></i> More info</a>
+					</div> <!--about-organisation ends-->
+		
+					<!--similar-opportunities starts-->
+					<div class="similar-opportunities">
+						<h3>Similar Opportunities</h3>
+						<div class="col-md-12" style="padding: 0;float: left;">
+							<div class="rec-box col-md-3"></div>
+							<div class="col-md-9 boxes">
+								<p>Senegal Building & French(High School Specials)</p>
+							</div>
+						</div>
+
+						<div class="col-md-12" style="padding: 0;float: left;">
+							<div class="rec-box col-md-3"></div>
+							<div class="col-md-9 boxes">
+								<p>Mexico Sea Turtle& coastal Conservation (Standard)</p>
+							</div>
+						</div>
+					</div><!--similar-opportunities-->
+
+				</div>
+		
+				<div class="col-md-9" style="float: left;background-color: white;">
+	
+					<!--handbooks for children-->
+					<div class="col-md-8" style="border-right: 1px solid #e6e6e6;float: left;">
+						<div class="children">
+							<h1>Handbooks for Children</h1>
+
+							<a href="#" class="event">One time event</a>
+							<span><i class="fa fa-print" aria-hidden="true"></i> print</span>
+						</div>
+
+						<div class="time col-md-12">
+							<h6 class="col-md-6" style="float: left;">Time:</h6>
+							<p class="col-md-6" style="float: left;">Sep27, 8:00 Am - 1:00 Pm</p>
+						</div>
+
+						<div class="location col-md-12">
+							<h6 class="col-md-6" style="float: left;">Location:</h6>
+							<p class="col-md-6" style="float: left;">64102, Jackson, Kansas, Mississippi, 64102</p>
+						</div>
+
+						<!--tabs section-->
+						<div class="tabs col-md-12">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+							  <li class="nav-item">
+							    <a class="nav-link" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="home" aria-selected="true">Info</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link active" id="photos-tab" data-toggle="tab" href="#photos" role="tab" aria-controls="profile" aria-selected="false">Photos</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" id="vedios-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="contact" aria-selected="false">Videos</a>
+							  </li>
+							</ul>
+							<div class="tab-content" id="myTabContent">
+							  <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
+							  	<figure class="img-icon">
+							  		<figcation><img src="images/img_icon.jpg" alt="image"></figcation>
+							  	</figure>
+							  	<span>No photos Uploaded yet</span>
+							  	<a href="#"><i class="fa fa-upload" aria-hidden="true"></i>Upload photos</a>
+							  </div>
+
+							  <div class="tab-pane fade show active" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+							  	<figure class="img-icon">
+							  		<figcation><img src="images/img_icon.jpg" alt="image"></figcation>
+							  	</figure>
+							  	<span>No photos Uploaded yet</span>
+							  	<a href="#"><i class="fa fa-upload" aria-hidden="true"></i>Upload photos</a>
+							  </div>
+
+							  <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="vedios-tab">
+							  	<figure class="img-icon">
+							  		<figcation><img src="images/img_icon.jpg" alt="image"></figcation>
+							  	</figure>
+							  	<span>No photos Uploaded yet</span>
+							  	<a href="#"><i class="fa fa-upload" aria-hidden="true"></i>Upload photos</a>
+							  </div>
+
+							</div>
+
+						</div><!--tabs section ends-->
+
+					</div><!--handbooks for children ends-->
+
+					<div class="col-md-4" style="float: left;padding-top: 15px;">
+						<div class="buttons">
+							<a href="#" class="active">Apply now</a>
+							<a href="#">Contact us</a>
+						</div>
+						
+						<div class="volunteer">
+							<h3>Volunteer opportunity for:</h3>
+							<span><i class="fa fa-male" aria-hidden="true"></i> Individuals</span>
+							<span><i class="fa fa-users" aria-hidden="true" style="font-size: 20px;"></i> Groups</span>
+						</div>
+
+						<div class="social-media">
+							<h3>Share Opportunity</h3>
+							<a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						</div>
+
+						<div class="attending">
+							<h3>Who's attending?</h3>
+							<div class="rec-box col-md-12 rec-box1" style="height: 25px;"></div>
+							<div class="col-md-12 names">
+								<div class="rec-box col-md-3"></div>
+								<div class="col-md-10 auditors">
+									<p>Etta Harris</p>
+								</div>
+							</div>
+
+							<div class="col-md-12 names">
+								<div class="rec-box col-md-3"></div>
+								<div class="col-md-10 auditors">
+									<p>Bernard Alvarado</p>
+								</div>
+							</div>
+
+							<div class="col-md-12 names">
+								<div class="rec-box col-md-3"></div>
+								<div class="col-md-10 auditors">
+									<p>Logan Cardwell</p>
+								</div>
+							</div>
+
+							<a href="#" class="show-more">+Show more</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div><!--container ends-->
+		
+	</main><!--main section ends-->
+
+	<!--footer-starts-->
+	<footer id="footer">
+		<div class="copyright">
+			<h6>&copy;2017| VolunteerMark LLC.All Rights Preserved</h6>
+		</div>
+	</footer>
+	<!--footer-ends-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

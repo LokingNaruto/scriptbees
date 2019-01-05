@@ -1,0 +1,103 @@
+/*large-screesn*/
+@media(min-width: 1201px) and (max-width: 1400px){}
+
+/*desktop-screens*/
+@media (min-width: 992px) and (max-width: 1200px){
+	.container{
+		width: 1170px;
+	}
+}
+/*tab-screens*/
+@media (min-width: 769px)and (max-width: 991px){
+	.container{
+		width: 960px;
+	}
+	.boxes{
+		margin-left: 22px;
+	}
+	.buttons a{
+		padding: 10px 17px;
+		font: 15px/28px 'arial';
+	}
+	.similar-opportunities{
+		height: 475px;
+	}
+	.col-md-9{
+		padding: 0;
+	}
+	.boxes{
+		width: 100%;
+		clear: both;
+		text-align: center;
+		margin-left: 0;
+	}
+}
+
+/*small-screens*/
+@media (max-width: 768px){
+	.container{
+		width: 100%;
+	}
+	.col-md-3,
+	.col-md-6{
+		padding: 0;
+	}
+	#header{
+		padding: 10px 0;
+	}
+	.about-organisation, .similar-opportunities, .children{
+		margin-top: 0;
+	}
+	#follow-btn{
+		font-size: 11px;
+		padding: 5px;
+		right: 4%;
+	}
+	.modal-title{
+		font-size: 11px;
+	}
+	.information .col-md-6{
+		padding: 0;
+	}
+	.similar-opportunities p{
+		padding-top: 10px;
+	}
+	.rec-box{
+		width: 55px;
+	}
+	.children{
+		padding: 30px 0;
+	}
+	.children h1{
+		font: bold 25px/34px 'arial';
+		margin-bottom: 20px;
+	}
+	.col-md-8{
+		border-right: 0 !important;
+	}
+	.tabs{
+		padding: 0;
+	}
+	.nav-tabs .nav-link,.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+		font: 12px/19px arial;
+	}
+	.buttons a{
+		padding: 10px 30px;
+	}
+	.attending a{
+		float: left;
+		margin-bottom: 10px;
+	}
+	.show-more{
+		width: 100%;
+	}
+	.boxes{
+		width: 100%;
+		clear: both;
+		text-align: center;
+		margin-left: 0;
+	}
+	.rec-box1{
+		width: 100%;
+	}
+}
